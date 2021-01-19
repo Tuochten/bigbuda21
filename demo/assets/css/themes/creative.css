@@ -1,0 +1,128 @@
+:root {
+  --color-primary: #2c088b;
+  --color-secondary: #00cfe2;
+  --color-light: #ffffff;
+  --color-gradient-start: #fe688b;
+  --color-gradient-stop: #000b96;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: #6c6c6c;
+}
+
+#content {
+  background-image: url(../../demo/bg/creative-content-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6 .h6 {
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 700;
+  color: #3f3f83;
+}
+
+.h1,
+h1 {
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+.h2,
+h2 {
+  font-size: 34px;
+  line-height: 39px;
+}
+
+.h3,
+h3 {
+  font-size: 30px;
+  line-height: 1.6em;
+}
+
+.h4,
+h4 {
+  font-size: 25px;
+  line-height: 1.7em;
+}
+
+.h5,
+h5 {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.h6,
+h6 {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.btn-solid {
+  background-color: #2c088b;
+  border-color: #2c088b;
+}
+
+.btn-solid:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.main-nav > li > a {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #858694;
+}
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: #00cfe2;
+}
+
+.main-footer {
+  color: #808291;
+  border-top: 1px solid #e5e8ec;
+}
+
+.main-footer a:not(.btn) {
+  color: #808291;
+}
+
+.main-footer a:not(.btn):hover {
+  color: #00cfe2;
+}
+.caption-link {
+	color: var(--color-primary);
+} 
+.main-footer .carousel-item-inner img {
+    max-width: 150px;
+}
+@media (min-width: 1200px) {
+  .main-header .is-stuck {
+    background: #fff !important;
+  }
+  .mainbar-wrap.is-stuck .social-icon a,
+  .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
+  .mainbar-wrap.is-stuck .main-nav > li > a,
+  .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+    color: rgba(0, 0, 0, 0.7) !important;
+  }
+  .mainbar-wrap.is-stuck .social-icon a:hover,
+  .mainbar-wrap.is-stuck .main-nav > li > a:hover {
+    color: #000 !important;
+  }
+}
