@@ -5,3 +5,11 @@
 /** Footer **/
 
 /** Páginas interiores **/
+
+/** Responsive **/
+@media screen and (min-width:1600px) {
+    html body .main-header .row.pl-4, html body .main-header .row.px-4 {
+        padding-right: 14.5rem!important;
+        padding-left: 14.5rem!important;
+    }
+}
