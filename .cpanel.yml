@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bigbuda/public_html/dev/git/
+    - /bin/cp -R * $DEPLOYPATH
