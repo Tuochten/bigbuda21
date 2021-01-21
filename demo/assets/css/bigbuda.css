@@ -19,3 +19,23 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.listas-bb div ul {
+    padding-left: 0;
+}
+
+.listas-bb div ul li {
+    list-style: none;
+}
+
+.listas-bb div ul li:before {
+    content: "";
+    background-image: url(../img-bb/listas.png);
+    width: 20px;
+    height: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 2px;
+    margin-right: 4px;
+}
