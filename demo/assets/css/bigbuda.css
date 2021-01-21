@@ -2,31 +2,32 @@
 
 /** Header **/
 
+/* Menu stiky */
+.lqd-sticky-menu {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #fff;
+    border-bottom: 1px solid #faf5f2;
+}
+.inline-nav li a {
+    color: #6c6c6c;
+}
+
 /** Footer **/
 
 /** Páginas interiores **/
-
-/** Responsive **/
-@media screen and (min-width:1600px) {
-    html body .main-header .row.pl-4, html body .main-header .row.px-4 {
-        padding-right: 14.5rem!important;
-        padding-left: 14.5rem!important;
-    }
-}
-
-
+/*
 .titlebar-md .titlebar-inner {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+*/
 .listas-bb div ul {
     padding-left: 0;
 }
-
 .listas-bb div ul li {
     list-style: none;
 }
-
 .listas-bb div ul li:before {
     content: "";
     background-image: url(../img-bb/listas.png);
@@ -39,3 +40,13 @@
     margin-bottom: 2px;
     margin-right: 4px;
 }
+
+
+/** Responsive **/
+@media screen and (min-width:1600px) {
+    html body .main-header .row.pl-4, html body .main-header .row.px-4 {
+        padding-right: 14.5rem!important;
+        padding-left: 14.5rem!important;
+    }
+}
+
