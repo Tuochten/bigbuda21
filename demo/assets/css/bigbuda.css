@@ -44,6 +44,29 @@
     margin-right: 4px;
 }
 
+.iconbox-side .iconbox-icon-wrap {
+    width: 40px
+}
+.n1 {
+    background-image: url(/demo/assets/img-bb/n1.svg);
+    background-position: -12px 10px;
+    background-repeat: no-repeat;
+}
+.n2 {
+    background-image: url(/demo/assets/img-bb/n2.svg);
+    background-position: -12px 10px;
+    background-repeat: no-repeat;
+}
+.n3 {
+    background-image: url(/demo/assets/img-bb/n3.svg);
+    background-position: -12px 10px;
+    background-repeat: no-repeat;
+}
+.n4 {
+    background-image: url(/demo/assets/img-bb/n4.svg);
+    background-position: -12px 10px;
+    background-repeat: no-repeat;
+}
 
 /** Responsive **/
 @media screen and (min-width:1600px) {
