@@ -67,7 +67,16 @@
     background-position: -12px 10px;
     background-repeat: no-repeat;
 }
-
+.linea-morada {
+    width: 100%;
+    display: block;
+    height: 2px;
+    background-color: #2c088b;
+    margin-top: 5px;
+}
+.text-purple {
+    color: #2c088b;
+}
 /** Responsive **/
 @media screen and (min-width:1600px) {
     html body .main-header .row.pl-4, html body .main-header .row.px-4 {
