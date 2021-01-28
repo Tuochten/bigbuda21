@@ -19,15 +19,10 @@
 /** Footer **/
 
 /** Páginas interiores **/
-/*
-.titlebar-md .titlebar-inner {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-*/
 .listas-bb div ul {
     padding-left: 0;
 }
+
 .listas-bb div ul li {
     list-style: none;
 }
@@ -44,29 +39,7 @@
     margin-right: 4px;
 }
 
-.iconbox-side .iconbox-icon-wrap {
-    width: 40px
-}
-.n1 {
-    background-image: url(/demo/assets/img-bb/n1.svg);
-    background-position: -12px 10px;
-    background-repeat: no-repeat;
-}
-.n2 {
-    background-image: url(/demo/assets/img-bb/n2.svg);
-    background-position: -12px 10px;
-    background-repeat: no-repeat;
-}
-.n3 {
-    background-image: url(/demo/assets/img-bb/n3.svg);
-    background-position: -12px 10px;
-    background-repeat: no-repeat;
-}
-.n4 {
-    background-image: url(/demo/assets/img-bb/n4.svg);
-    background-position: -12px 10px;
-    background-repeat: no-repeat;
-}
+
 .linea-morada {
     width: 100%;
     display: block;
@@ -76,6 +49,44 @@
 }
 .text-purple {
     color: #2c088b;
+}
+
+/** Iconbox del home, sección "Forma de trabajo" **/
+.iconbox-side .iconbox-icon-wrap {
+    width: 72px;
+}
+.n1 {
+    background-image: url(/demo/assets/img-bb/n1.svg);
+    background-size: 21.5%;
+    background-position: -18px 22px;
+    background-repeat: no-repeat;
+}
+.n2 {
+    background-image: url(/demo/assets/img-bb/n2.svg);
+    background-size: 21.5%;
+    background-position: -18px 22px;
+    background-repeat: no-repeat;
+}
+.n3 {
+    background-image: url(/demo/assets/img-bb/n3.svg);
+    background-size: 24%;
+    background-position: -28px 32px;
+    background-repeat: no-repeat;
+}
+.n4 {
+    background-image: url(/demo/assets/img-bb/n4.svg);
+    background-size: 24%;
+    background-position: -28px 25px;
+    background-repeat: no-repeat;
+}
+.iconbox-shadow.iconbox-inline, .iconbox-shadow.iconbox-side, .iconbox-shadow-hover.iconbox-inline, .iconbox-shadow-hover.iconbox-side, .iconbox-bordered.iconbox-inline, .iconbox-bordered.iconbox-side, .iconbox-filled.iconbox-inline, .iconbox-filled.iconbox-side {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    padding: 30px 8%;
+}
+.iconbox .contents strong {
+    color: #2c088b!important;
+    display: block;
 }
 /** Responsive **/
 @media screen and (min-width:1600px) {
