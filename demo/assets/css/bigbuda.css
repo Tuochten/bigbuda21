@@ -15,6 +15,9 @@
 .bg-bigbuda-purple {
     background-color: #2c088b!important;
 }
+body:not(.home) .main-nav .link-txt .txt {
+    color: #fff!important;
+}
 
 /** Footer **/
 
