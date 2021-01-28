@@ -1,5 +1,11 @@
 /** Generales **/
-
+:root {
+    --color-primary: #3f3f83;
+    --color-secondary: #00cfe2;
+    --color-light: #ffffff;
+    --color-gradient-start: #3f3f83;
+    --color-gradient-stop: #00cfe2;
+  }
 /** Header **/
 
 /* Menu stiky */
@@ -25,7 +31,6 @@ body:not(.home) .main-nav .link-txt .txt {
 .listas-bb div ul {
     padding-left: 0;
 }
-
 .listas-bb div ul li {
     list-style: none;
 }
@@ -41,8 +46,6 @@ body:not(.home) .main-nav .link-txt .txt {
     margin-bottom: 2px;
     margin-right: 4px;
 }
-
-
 .linea-morada {
     width: 100%;
     display: block;
@@ -91,6 +94,13 @@ body:not(.home) .main-nav .link-txt .txt {
     color: #2c088b!important;
     display: block;
 }
+
+/** Proyectos **/
+.bg-gradient-primary-bl {
+    background: -webkit-gradient(linear, right top, left bottom, from(var(--color-gradient-start)), to(var(--color-gradient-stop))) !important;
+    background: linear-gradient(to bottom left, var(--color-gradient-start) 50%, var(--color-gradient-stop) 100%) !important;
+}
+
 /** Responsive **/
 @media screen and (min-width:1600px) {
     html body .main-header .row.pl-4, html body .main-header .row.px-4 {
